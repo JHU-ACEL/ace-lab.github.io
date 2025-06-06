@@ -1,0 +1,10 @@
+<div class="publication">
+  <h3>{{ reference.title }}</h3>
+  <p class="authors">{{ reference.author }}</p>
+  <p class="venue">{{ reference.booktitle }}{% if reference.pages %}, pp. {{ reference.pages }}{% endif %}, {{ reference.year }}</p>
+  {% if reference.doi %}
+  <p class="links">
+    <a href="https://doi.org/{{ reference.doi }}" target="_blank">DOI</a>
+  </p>
+  {% endif %}
+</div> 

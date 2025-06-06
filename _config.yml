@@ -1,0 +1,36 @@
+title:
+position:
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-scholar
+
+# Scholar configuration
+scholar:
+  style: apa
+  locale: en
+  sort_by: year,month
+  order: descending
+  bibliography_list_tag: div
+  bibliography_item_tag: div
+  last_name: [Cauligi]
+  first_name: [Abhishek]
+  bibliography_class: bibliography
+  bibliography_item_class: bibliography-item
+  details_list_tag: div
+  details_item_tag: div
+  details_class: details
+  details_item_class: details-item
+  reference_list_tag: div
+  reference_item_tag: div
+  reference_class: references
+  reference_item_class: reference-item
+  bibliography_list_attributes:
+    class: publications
+  bibliography_item_attributes:
+    class: publication
