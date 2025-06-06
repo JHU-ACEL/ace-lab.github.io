@@ -3,13 +3,18 @@ position: Assistant Professor
 email: cauligi@jhu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   The Johns Hopkins Autonomous Control & Exploration Lab 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ace-lab.github.io" # the subpath of your site
 url: "https://jhu-acel.github.io" # the base hostname & protocol for your site
+
+# Theme settings
+theme: minima
+remote_theme: jekyll/minima
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-scholar
+  - jekyll-remote-theme
 
 # Scholar configuration
 scholar:
