@@ -18,10 +18,12 @@ jobs:
         with:
           ruby-version: '3.2.2'
           bundler-cache: true
+          bundler: '2.5.23'
 
       - name: Install Dependencies
         run: |
           gem install bundler
+          bundle config set --local frozen false
           bundle install
 
       - name: Build Site
