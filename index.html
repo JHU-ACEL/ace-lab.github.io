@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACE Lab</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="/" class="navbar-brand">
+                <img src="/assets/img/ace.png" alt="ACE Lab Logo" class="navbar-logo">
+            </a>
+            <div class="navbar-links">
+                <a href="/people">People</a>
+                <a href="/publications">Publications</a>
+                <a href="/join">Join</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slideshow Section -->
+    <div class="slideshow-container">
+        <!-- Slide 1 -->
+        <div class="slide active">
+            <div class="slide-background" style="background-image: url('/assets/img/cadre.jpg');"></div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="slide">
+            <div class="slide-background" style="background-image: url('/assets/img/astrobee.png');"></div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="slideshow-arrow slideshow-prev" onclick="changeSlide(-1)">❮</button>
+        <button class="slideshow-arrow slideshow-next" onclick="changeSlide(1)">❯</button>
+
+        <!-- Navigation Dots -->
+        <div class="slideshow-nav">
+            <span class="slideshow-dot active" onclick="currentSlide(0)"></span>
+            <span class="slideshow-dot" onclick="currentSlide(1)"></span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <p>The goal of the Autonomous Systems Laboratory (ASL) is the development of methodologies for the analysis, design, and control of autonomous systems, with a particular emphasis on self-driving cars, autonomous aerospace vehicles, and future mobility systems. The lab combines expertise from control theory, robotics, optimization, and machine learning to develop the theoretical foundations for networked autonomous systems operating in uncertain, rapidly-changing, and potentially adversarial environments. Theoretical insights are then used to devise practical, computationally-efficient, and provably-correct algorithms for field deployment.</p>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 ACE Lab. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JHU Logo -->
+    <img src="/assets/img/jhu-logo.jpg" alt="Johns Hopkins University Logo" class="jhu-logo">
+
+    <script>
+        let slideIndex = 0;
+        const slides = document.getElementsByClassName("slide");
+        const dots = document.getElementsByClassName("slideshow-dot");
+
+        function showSlides() {
+            // Hide all slides and dots
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].classList.remove("active");
+                dots[i].classList.remove("active");
+            }
+
+            // Show current slide and dot
+            slides[slideIndex].classList.add("active");
+            dots[slideIndex].classList.add("active");
+        }
+
+        function changeSlide(n) {
+            slideIndex = (slideIndex + n + slides.length) % slides.length;
+            showSlides();
+        }
+
+        function currentSlide(n) {
+            slideIndex = n;
+            showSlides();
+        }
+
+        // Auto advance slides every 5 seconds
+        setInterval(() => changeSlide(1), 5000);
+    </script>
+</body>
+</html> 
