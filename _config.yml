@@ -4,7 +4,7 @@ email: cauligi@jhu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   The Johns Hopkins Autonomous Control & Exploration Lab 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jhu-acel.github.io" # the base hostname & protocol for your site
+url: "https://jhu-ace.github.io" # the base hostname & protocol for your site
 
 # Build settings
 plugins:
