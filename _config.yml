@@ -1,10 +1,9 @@
 title: ACE Lab
-position: Assistant Professor
 email: cauligi@jhu.edu
 description: >- # this means to ignore newlines until "baseurl:"
   The Johns Hopkins Autonomous Control & Exploration Lab 
-baseurl: "/ace-lab.github.io" 
-url: "https://jhu-ace.github.io"
+baseurl:
+url: "https://jhu-acel.github.io"
 
 # Build settings
 plugins:
