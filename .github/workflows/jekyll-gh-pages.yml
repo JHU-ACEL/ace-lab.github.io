@@ -30,8 +30,14 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.7'
+          ruby-version: '3.2.8'
           bundler-cache: true
+          bundler: '2.4.22'
+      - name: Configure Bundler
+        run: |
+          gem install bundler -v 2.4.22 
+          bundle config set --local frozen false
+          bundle install
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
