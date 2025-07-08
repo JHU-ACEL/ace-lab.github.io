@@ -249,6 +249,11 @@ h3 {
     margin-top: 3rem;
 }
 
+.blue-stripe h1 {
+    color: white;
+    text-align: left;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
     .col-md-6 {
