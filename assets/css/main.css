@@ -754,4 +754,30 @@ h3 {
     .publication h3 {
         font-size: 1.1rem;
     }
+}
+
+/* Simple Bootstrap-like grid for research page */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+.col-sm-5 {
+  flex: 0 0 41.6667%;
+  max-width: 41.6667%;
+  padding-right: 1rem;
+}
+.col-sm-7 {
+  flex: 0 0 58.3333%;
+  max-width: 58.3333%;
+}
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+  .col-sm-5, .col-sm-7 {
+    max-width: 100%;
+    flex: 0 0 100%;
+    padding-right: 0;
+  }
 } 
