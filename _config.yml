@@ -4,6 +4,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   The Johns Hopkins Autonomous Control & Exploration Lab 
 baseurl:
 url: "https://jhu-acel.github.io"
+canonical_url: "http://acelab.me.jhu.edu"
 
 # Build settings
 plugins:
