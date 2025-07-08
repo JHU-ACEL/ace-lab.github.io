@@ -4,8 +4,6 @@ title: People
 permalink: /people/
 ---
 
-# People
-
 ## Principal Investigator
 <div class="pi-profile">
     <div class="pi-image">
@@ -14,11 +12,12 @@ permalink: /people/
     <div class="pi-info">
         <h3>Abhishek Cauligi</h3>
         <ul>
-            <li>Assistant Professor, Department of Mechanical Engineering, Johns Hopkins University</li>
-            <li>Contact: <a href="mailto:cauligi@jhu.edu">cauligi@jhu.edu</a></li>
-            <li><a href="https://acauligi.github.io">Personal Website</a></li>
+            <li>Assistant Professor </li>
+            <li><a href="https://me.jhu.edu">Deparment of Mechanical Engineering</a></li>
+            <li>Office: Hackerman 117 </li>
+            <li>Johns Hopkins University</li>
+            <li><a href="https://acauligi.github.io">Personal webpage</a></li>
         </ul>
-        <p>Abhishek Cauligi is an incoming Assistant Professor in the Department of Mechanical Engineering at Johns Hopkins University.</p> 
     </div>
 </div>
 

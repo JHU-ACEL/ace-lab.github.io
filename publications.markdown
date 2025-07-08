@@ -5,8 +5,6 @@ permalink: /publications/
 bibliography: _bibliography/publications.bib
 ---
 
-# Publications
-
 ## Journal Articles
 {% bibliography --file publications --query @article %}
 
