@@ -49,6 +49,28 @@
         {{ content }}
     </main>
 
+    <!-- News Section -->
+    <section class="news-section">
+        <div class="container">
+            <h2>Latest News</h2>
+            <div class="news-grid">
+                {% assign posts = site.posts | slice: 0, 3 %}
+                {% for post in posts %}
+                <div class="news-card">
+                    <div class="news-date">{{ post.date | date: "%B %-d, %Y" }}</div>
+                    <p> {{post.content}} </p>
+                </div>
+                {% endfor %}
+                
+                {% if site.posts.size == 0 %}
+                <div class="news-card">
+                    <p>No news posts yet. Check back soon!</p>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+
     <div class="blue-stripe">
         <div class="container">
           <div class="row" style="margin-top: 24px; margin-bottom: 24px;">
