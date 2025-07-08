@@ -199,6 +199,69 @@ h3 {
     margin-top: 4rem;
 }
 
+/* Bootstrap-like grid system for the contact section */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -0.5rem;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 0.5rem;
+}
+
+.white-text {
+    color: white;
+}
+
+.hide-on-med-width {
+    display: block;
+}
+
+.map-responsive {
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 60%; /* 16:9 aspect ratio */
+    height: 0;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Blue stripe styling */
+.blue-stripe {
+    background-color: #002D72;
+    padding: 2rem 0;
+    margin-top: 3rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+    }
+    
+    .hide-on-med-width {
+        display: none;
+    }
+}
+
 .footer-content {
     max-width: 1200px;
     margin: 0 auto;
