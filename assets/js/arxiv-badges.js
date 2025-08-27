@@ -1,5 +1,6 @@
 // ArXiv badge mapping - manually maintained for now
 const arxivMap = {
+  'BanerjeeCauligiEtAl2025': '2505.05588',
   'BridenGurgaEtAl2025': '2501.00930',
   'BridenJohnsonEtAl2025': '2501.00915',
   'EchigoCauligiEtAl2025a': '2412.06816',
