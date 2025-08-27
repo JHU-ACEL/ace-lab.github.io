@@ -43,5 +43,9 @@
             <p>&copy; {{ site.time | date: '%Y' }} ACE Lab. All rights reserved.</p>
         </div>
     </footer>
+
+    {% if page.url contains '/publications/' %}
+    <script src="{{ '/assets/js/arxiv-badges.js' | relative_url }}"></script>
+    {% endif %}
 </body>
 </html> 
