@@ -7,7 +7,7 @@ permalink: /people/
 ## Principal Investigator
 <div class="pi-profile">
     <div class="pi-image">
-        <img src="../assets/img/Cauligi.png" alt="Abhishek Cauligi">
+        <img src="../assets/img/Cauligi.jpg" alt="Abhishek Cauligi">
     </div>
     <div class="pi-info">
         <h3>Abhishek Cauligi</h3>
