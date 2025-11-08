@@ -13,7 +13,7 @@ permalink: /people/
         <h3>Abhishek Cauligi</h3>
         <ul>
             <li>Assistant Professor </li>
-            <li><a href="https://me.jhu.edu">Deparment of Mechanical Engineering</a></li>
+            <li><a href="https://me.jhu.edu">Department of Mechanical Engineering</a></li>
             <li>Johns Hopkins University</li>
             <li>Email: [last name]@jhu.edu </li>
             <li>Office: Hackerman 117 </li>
